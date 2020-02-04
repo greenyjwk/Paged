@@ -1,19 +1,41 @@
-body{
+.wrppaer {
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
+    max-width: 70rem;
 }
 
 .wrapper{
     display: flex;
 }
 
-.left{
-    border : red;
-    width: 20%;
+section{
+    display : flex;
+    width: 250vh;
+    height: 100vh;
 }
 
-.right{
-    border : blue;
+.left{
+    width: 20%;
+    /* background-color: antiquewhite; */
+}
+
+.avatar{   
+    border-radius: 100%;
+    background-color: bisque;
+    display : inline-block;
+}
+
+.avatar img {
+    border-radius: 100%;
+}
+
+.I_am {
+    text-align: center;
+    
+}
+
+.right {
+    background-color: brown;
     width: 80%;
 }
