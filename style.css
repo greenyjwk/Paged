@@ -5,37 +5,67 @@
     max-width: 70rem;
 }
 
-.wrapper{
-    display: flex;
-}
-
 section{
     display : flex;
     width: 250vh;
     height: 100vh;
 }
 
-.left{
+/* .left .right{
+    flex-basis : 150px;
+    flex-shrink: 0;
+} */
+
+.left{    
     width: 20%;
+    background-color: palegoldenrod;
+    text-align: center;
     /* background-color: antiquewhite; */
 }
 
-.avatar{   
+.avatar  {
     border-radius: 100%;
-    background-color: bisque;
+    border :3px solid  rgb(  255 , 255  , 255  , 0.3); 
     display : inline-block;
+    padding : 0.3rem;
+    background-color: rgb(  255 , 255  , 255  , 0.2); 
+    margin-top :1rem;
+    /* margin-bottom: 1rem; */
+ }
+
+.left .avatar img {
+    display : block;
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-.avatar img {
-    border-radius: 100%;
-}
-
-.I_am {
-    text-align: center;
-    
-}
+ 
 
 .right {
-    background-color: brown;
+    /* background-color: brown; */
     width: 80%;
+}
+
+.right:after{
+    background-image: url(/Users/jiwoongkim/Documents/Paged/photos/backgroundImage/cafe.jpg);
+    background-size: cover;    
+    z-index: -1;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+}
+
+.box1 .box2 .box3 .box4{
+    background-color: orchid;
 }
