@@ -7,8 +7,9 @@
 
 section{
     display : flex;
-    width: 250vh;
+    width: 100%;
     height: 100vh;
+    /* background-color: rgb(226, 184, 130); */
 }
 
 /* .left .right{
@@ -17,9 +18,13 @@ section{
 } */
 
 .left{    
+    margin-left: 1rem;
+    margin-top: 2rem;
     width: 20%;
-    background-color: palegoldenrod;
+    background-color:rgba(185, 120, 45, 0.89);
+    height: 85vh;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     /* background-color: antiquewhite; */
 }
 
@@ -41,15 +46,16 @@ section{
     border-radius: 50%;
 }
 
- 
 
 .right {
     /* background-color: brown; */
     width: 80%;
+    
 }
 
+
 .right:after{
-    background-image: url(/Users/jiwoongkim/Documents/Paged/photos/backgroundImage/cafe.jpg);
+    background-image: url(/Users/jiwoongkim/Documents/Paged/photos/backgroundImage/cafe2.jpg);
     background-size: cover;    
     z-index: -1;
     background-repeat: no-repeat;
@@ -58,14 +64,57 @@ section{
     position: absolute;
     width: 100%;
     height: 100%;
-    
-    opacity: 0.6;
+    opacity: 1;
     top: 0;
     left: 0;
     right:0;
     bottom:0;
 }
 
-.box1 .box2 .box3 .box4{
-    background-color: orchid;
+
+.bookPhotos{
+
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    width: 55rem;
+    height: 35rem;
+}
+
+.bookPhotos > div{   
+    margin-top: 2rem;
+    height: 30rem;
+    width: 20rem;
+}
+
+.bookPhotos .book1,.book2,.book3 {
+    background-color:rgba(255, 255, 255, 0.4);
+    height: 28rem;
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+.bookPhotos a img {
+    margin-top: 2rem;
+    height: 16rem;
+    align-items: center;
+}
+
+.bookPhotos a h3 {
+    margin-top: 2rem;
+    color:black;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.bookPhotos a p {
+    color:black;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-decoration: none;
+    font-size: 15px;
 }
