@@ -50,7 +50,6 @@ section{
 .right {
     /* background-color: brown; */
     width: 80%;
-    
 }
 
 
@@ -73,7 +72,6 @@ section{
 
 
 .bookPhotos{
-
     /* border: 2px solid blue; */
     display: flex;
     flex-direction: row;
@@ -93,19 +91,17 @@ section{
 .bookPhotos .book1,.book2,.book3 {
     background-color:rgba(255, 255, 255, 0.4);
     height: 28rem;
-    width: 20rem;
+    width: 22rem;
     margin-top: 2rem;
 }
 
 .bookPhotos div img {
-   
     margin-top: 3rem;    
     height: 22rem;
     align-items: center;
 }
 
 .bookPhotos div a  {
-   
     margin-top: 3rem;
     height: 22rem;
     align-items: center;
