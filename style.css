@@ -84,26 +84,34 @@ section{
     height: 35rem;
 }
 
-.bookPhotos > div{   
+/* .bookPhotos > div{   
     margin-top: 2rem;
     height: 30rem;
     width: 20rem;
-}
+} */
 
 .bookPhotos .book1,.book2,.book3 {
     background-color:rgba(255, 255, 255, 0.4);
     height: 28rem;
-    width: 15rem;
+    width: 20rem;
     margin-top: 2rem;
 }
 
-.bookPhotos a img {
-    margin-top: 2rem;
-    height: 16rem;
+.bookPhotos div img {
+   
+    margin-top: 3rem;    
+    height: 22rem;
     align-items: center;
 }
 
-.bookPhotos a h3 {
+.bookPhotos div a  {
+   
+    margin-top: 3rem;
+    height: 22rem;
+    align-items: center;
+}
+
+.bookPhotos div h3 {
     margin-top: 2rem;
     color:black;
     font-family: 'Nanum Gothic Coding', monospace;
@@ -112,7 +120,7 @@ section{
 }
 
 
-.bookPhotos a p {
+.bookPhotos div p {
     color:black;
     font-family: 'Nanum Gothic Coding', monospace;
     text-decoration: none;
