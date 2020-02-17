@@ -22,4 +22,9 @@ function nextPage( target, duration){
 
 
 
+
+
+
+
+
 nextPage('.section1', 1000 );
