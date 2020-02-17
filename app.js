@@ -23,14 +23,7 @@ function nextPage( target, duration){
         t--;
         return -c/2 * (t*(t-2) - 1) + b;
     }
-
-<<<<<<< HEAD
-
-
-
-=======
     requestAnimationFrame(animation);     
 }
->>>>>>> working
 
-nextPage('.firstPageClick', 1000 );
+nextPage('.firstPageClick', 1000);
