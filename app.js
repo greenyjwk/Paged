@@ -20,4 +20,7 @@ function nextPage( target, duration){
     requestAnimationFrame(animation);     
 }
 
+
+// for test
+
 nextPage('.section1', 1000 );
