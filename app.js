@@ -20,4 +20,25 @@ function nextPage( target, duration){
     requestAnimationFrame(animation);     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nextPage('.section1', 1000 );
