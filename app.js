@@ -6,7 +6,6 @@ function nextPage( target, duration){
     var distance = targetPosition - startPosition;
     var startTime = null;
 
-    console.log(startPosition);
     function animation(currentTime){
         if(startTime === null){
             startTime = currentTime;
@@ -26,4 +25,12 @@ function nextPage( target, duration){
     requestAnimationFrame(animation);     
 }
 
+<<<<<<< HEAD
 nextPage('.firstPageClick', 1000);
+=======
+var section = document.querySelector('.firstPageClick');
+
+section.addEventListener( 'click', function(){
+    nextPage('.secondPageClick' , 3000);
+});
+>>>>>>> working
