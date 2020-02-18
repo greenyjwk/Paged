@@ -16,7 +16,6 @@ section{
     /* background-color: rgb(226, 184, 130); */
 }
 
-
 /* .left .right{
     flex-basis : 150px;
     flex-shrink: 0;
@@ -51,12 +50,10 @@ section{
     border-radius: 50%;
 }
 
-
 .section1 .right{
     /* background-color: brown; */
     width: 80%;
 }
-
 
 .right:after{
     background-image: url(/Users/jiwoongkim/Documents/Paged/photos/backgroundImage/cafe2.jpg);
@@ -74,7 +71,6 @@ section{
     right:0;
     bottom:0;
 }
-
 
 .section1 .bookPhotos{
     display: flex;
@@ -130,7 +126,6 @@ section{
     margin-top: 4rem;
 }
 
-
 .bookPhotos div img {
     margin-top: 3rem;    
     height: 22rem;
@@ -151,16 +146,12 @@ section{
     font-size: 18px;
 }
 
-
 .bookPhotos div p {
     color:black;
     font-family: 'Nanum Gothic Coding', monospace;
     text-decoration: none;
     font-size: 15px;
 }
-
-
-
 
 .firstPageClick {
     width: 6rem;
