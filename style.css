@@ -3,16 +3,22 @@
     margin: 0 ;
     padding: 0;
     max-width: 70rem;
+    
 }
 
 .section1{
-    border : 1px solid red;
+    
 }
 
 section{
     display : flex;
     width: 100%;
     height: 100vh;
+}
+
+
+.section1{
+    
 }
 
 /* .left .right{
@@ -51,7 +57,7 @@ section{
     width: 80%;
 }
 
-.right:after{
+/* .section1:after{
     background-image: url(/Users/jiwoongkim/Documents/Paged/photos/backgroundImage/cafe2.jpg);
     background-size: cover;    
     z-index: -1;
@@ -60,13 +66,13 @@ section{
     display: inline-block;
     position: absolute;
     width: 100%;
-    height: 200%;
+    height: 100%;
     opacity: 1;
     top: 0;
     left: 0;
     right:0;
     bottom:0;
-}
+} */
 
 .section1 .bookPhotos{
     display: flex;
@@ -86,6 +92,7 @@ section{
 }
 
 /* section2 */
+
 .section2:after{
     background-image: url(/Users/jiwoongkim/Documents/Paged/photos/backgroundImage/cafe2.jpg);
     background-size: cover;    
@@ -95,7 +102,7 @@ section{
     display: inline-block;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 200%;
     opacity: 1;
     top: 0;
     left: 0;
@@ -149,28 +156,43 @@ section{
 
 
 .firstPage {
-    display : inline-block;
+    
+    display: inline-block;
     border-radius: 100%;
+    margin-left: 50rem;
+
+    display: inline-flex;
+
+    width: 3rem;
+    height:3rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .secondPage {
+    
+    display: inline-block;
     border-radius: 100%;
+    margin-left: 66rem;
+
+    display: inline-flex;
+
+    width: 3rem;
+    height:3rem;
+    align-items: center;
+    justify-content: center;
 }
 
- .firstPage .icon-down-circled{
-    width: 6rem;
-    margin-left: 50rem;
-    font-size: 60px;
+ .firstPage .icon-down-big{
     color:rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    font-size: 5rem;
 }
 
-.secondPage .icon-down-circled{
-    width: 6rem;
-    margin-left: 68rem;
-    font-size: 60px;
+.secondPage .icon-down-big{
     color:rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    font-size: 5rem;
 }
 
 .icon {
