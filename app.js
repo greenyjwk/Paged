@@ -25,7 +25,7 @@ function nextPage( target, duration){
     requestAnimationFrame(animation);     
 }
 
-var section = document.querySelector('.icon-down-circled');
+var section = document.querySelector('.icon-down-big');
 
 section.addEventListener( 'click', function(){
     nextPage('.secondPage' , 2000);
